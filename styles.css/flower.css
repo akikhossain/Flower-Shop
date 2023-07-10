@@ -2,3 +2,34 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section style */
+
+.header-main {
+  display: flex;
+}
+.header-section {
+  width: 1045px;
+  padding-left: 240px;
+  padding-top: 200px;
+}
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  width: 708px;
+  margin-bottom: 32px;
+}
+.header-description {
+  color: #272727;
+  font-size: 18px;
+  width: 634px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+}
