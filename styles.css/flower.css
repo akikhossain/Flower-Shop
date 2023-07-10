@@ -119,3 +119,16 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+.services {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 240px;
+  margin-bottom: 130px;
+  text-align: center;
+}
