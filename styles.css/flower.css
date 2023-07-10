@@ -172,3 +172,34 @@ body {
   margin-bottom: 100px;
   margin-right: 400px;
 }
+
+/* new arrival bonus section */
+
+.new-arrival-container {
+  display: flex;
+  display: flex;
+  gap: 186px;
+  height: 620px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.new-arrival {
+  text-align: center;
+  width: 630px;
+  padding-left: 400px;
+  padding-top: 230px;
+}
+.new-arrival-title {
+  color: #272727;
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+.new-arrival-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.yellow-lily {
+  color: #a9c303;
+}
