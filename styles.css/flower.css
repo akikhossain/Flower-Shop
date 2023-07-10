@@ -203,3 +203,32 @@ body {
 .yellow-lily {
   color: #a9c303;
 }
+.new-image {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+}
+
+/* social banner section style */
+
+.social-banner-header {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.social-banner-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.social-banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+.social-banner-images {
+  display: flex;
+  gap: 24px;
+  margin: 0 240px;
+  margin-bottom: 128px;
+}
