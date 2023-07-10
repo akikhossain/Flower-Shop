@@ -232,3 +232,40 @@ body {
   margin: 0 240px;
   margin-bottom: 128px;
 }
+
+/* subscribe section style */
+
+.subscribe-container {
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+}
+.subscribe-section {
+  text-align: center;
+}
+.subscribe-title {
+  color: #272727;
+  font-size: 40px;
+  padding-top: 122px;
+}
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-top: 20px;
+}
+form {
+}
+form input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 22px 26px;
+  width: 600px;
+  margin-left: 287px;
+  margin-top: 50px;
+  border: none;
+  margin-right: 16px;
+}
