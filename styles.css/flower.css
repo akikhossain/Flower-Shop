@@ -119,6 +119,9 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+
+/* service section style */
+
 .services {
   display: flex;
   width: 1440px;
