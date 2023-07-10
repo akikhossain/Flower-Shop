@@ -67,7 +67,7 @@ body {
 }
 .featured-flowers {
   display: flex;
-  gap: 150px;
+  gap: 24px;
   justify-content: center;
   margin-bottom: 195px;
 }
@@ -75,6 +75,7 @@ body {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   width: 464px;
+  height: 538px;
 }
 .flower-daisy {
   border-radius: 300px 300px 0px 0px;
@@ -85,4 +86,36 @@ body {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   width: 464px;
+}
+.flower-tulip-description {
+  text-align: center;
+  position: absolute;
+  top: 140.5%;
+  left: 15%;
+}
+.flower-daisy-description {
+  text-align: center;
+  position: absolute;
+  top: 140.5%;
+  left: 40%;
+}
+.flower-yellow-description {
+  text-align: center;
+  position: absolute;
+  top: 136%;
+  left: 68%;
+}
+.tulip,
+.yellow-tulip {
+  margin-top: 32px;
+}
+.daisy {
+  margin-top: 83px;
+}
+.tulip a,
+.yellow-tulip a,
+.daisy a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
 }
