@@ -243,6 +243,7 @@ body {
   width: 1440px;
   height: 449px;
   margin: 0 auto;
+  margin-bottom: 130px;
 }
 .subscribe-section {
   text-align: center;
@@ -257,8 +258,7 @@ body {
   font-size: 18px;
   margin-top: 20px;
 }
-form {
-}
+
 form input[type="email"] {
   border-radius: 8px;
   background: #fff;
@@ -268,4 +268,34 @@ form input[type="email"] {
   margin-top: 50px;
   border: none;
   margin-right: 16px;
+}
+
+/* footer section style */
+
+footer {
+  background-color: #111010;
+  width: 1922px;
+  height: 449px;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+.footer-style {
+  color: #e55473;
+}
+.footer-second-description {
+  color: rgba(255, 255, 255, 0.4);
+
+  font-size: 16px;
+}
+.footer-container {
+  text-align: center;
+  padding: 128px 648px;
 }
