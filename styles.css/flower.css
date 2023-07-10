@@ -46,3 +46,19 @@ body {
   padding-right: 240px;
   padding-bottom: 0;
 }
+.main-section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 180px;
+  margin-bottom: 24px;
+}
+.main-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
