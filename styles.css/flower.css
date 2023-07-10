@@ -13,6 +13,7 @@ body {
 
 .header-main {
   display: flex;
+  background-color: rgba(229, 84, 115, 0.1);
 }
 .header-section {
   width: 1045px;
@@ -32,4 +33,16 @@ body {
   margin-bottom: 32px;
 }
 .btn-primary {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+}
+.header-picture {
+  width: 635px;
+  padding-top: 50px;
+  padding-right: 240px;
+  padding-bottom: 0;
 }
