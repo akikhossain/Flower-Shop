@@ -46,6 +46,9 @@ body {
   padding-right: 240px;
   padding-bottom: 0;
 }
+
+/* main section/featured flower style */
+
 .main-section-title {
   color: #272727;
   text-align: center;
@@ -61,4 +64,25 @@ body {
   width: 600px;
   margin: 0 auto;
   margin-bottom: 48px;
+}
+.featured-flowers {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-bottom: 195px;
+}
+.flower-tulip {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 464px;
+}
+.flower-daisy {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+}
+.flower-yellow {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
 }
