@@ -27,7 +27,7 @@ body {
   margin-bottom: 32px;
 }
 .header-description {
-  color: #272727;
+  color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   width: 634px;
   margin-bottom: 32px;
@@ -134,6 +134,10 @@ body {
   margin: 0 240px;
   margin-bottom: 130px;
   text-align: center;
+  font-size: 24px;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
 }
 
 /* hot deal container */
@@ -292,7 +296,7 @@ footer {
 }
 .footer-second-description {
   color: rgba(255, 255, 255, 0.4);
-
+  line-height: 1.8;
   font-size: 16px;
 }
 .footer-container {
