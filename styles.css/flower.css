@@ -44,7 +44,6 @@ body {
   width: 635px;
   padding-top: 50px;
   padding-right: 240px;
-  padding-bottom: 0;
 }
 
 /* main section/featured flower style */
@@ -89,22 +88,23 @@ body {
 }
 .flower-tulip-description {
   text-align: center;
-  position: absolute;
-  top: 142.62%;
-  left: 15%;
+  position: relative;
+  top: 20.5%;
+  left: 1%;
 }
 .flower-daisy-description {
   text-align: center;
-  position: absolute;
-  top: 140.5%;
-  left: 40%;
+  position: relative;
+  top: 18%;
+  left: 5%;
 }
 .flower-yellow-description {
   text-align: center;
-  position: absolute;
-  top: 138%;
-  left: 68%;
+  position: relative;
+  top: 12%;
+  left: 5%;
 }
+
 .tulip,
 .yellow-tulip {
   margin-top: 32px;
@@ -302,4 +302,77 @@ footer {
 .footer-container {
   text-align: center;
   padding: 128px 648px;
+}
+
+/* responsive medium and small devices */
+
+@media screen and (max-width: 576px) {
+  .header-main,
+  .featured-flowers,
+  .services,
+  .hot-deals-container {
+    flex-direction: column;
+    /* padding: 10px; */
+    width: 100%;
+  }
+  .header-section,
+  .hot-deals {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* font-size: small; */
+  }
+  .header-title,
+  .header-description,
+  .main-section-title,
+  .main-section-description {
+    /* font-size: 30px; */
+    width: 100%;
+  }
+  .header-picture img {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+  }
+  .flower-tulip,
+  .flower-daisy,
+  .flower-yellow {
+    width: 100%;
+    /* gap: 100px; */
+  }
+  .flower-tulip-description,
+  .flower-daisy-description,
+  .flower-yellow-description {
+    width: 100%;
+  }
+  .flower-daisy {
+    margin-top: 50px;
+  }
+
+  .tulip,
+  .daisy {
+    margin-top: 10px;
+  }
+  .services {
+    margin: 20px;
+    background: none;
+    margin-bottom: 40px;
+  }
+
+  .hot-deals-container {
+    /* margin: 15px; */
+    width: 100%;
+    gap: 15px;
+  }
+  .deals-image img {
+    /* margin: 15px;
+    padding: 10px; */
+    width: 200px;
+    height: 200px;
+    padding: 0px 30px;
+  }
+  .deals-title {
+    margin-top: 180px;
+    white-space: normal;
+  }
 }
